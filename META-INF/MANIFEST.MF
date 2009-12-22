@@ -1,18 +1,18 @@
 Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: fr.imag.adele.cadse.as.workspace.operationfactory
-Bundle-SymbolicName: fr.imag.adele.cadse.as.workspace.operationfactory;singleton:=true
+Export-Package: fr.imag.adele.fede.workspace.as.operationfactory;uses:
+ ="fr.imag.adele.cadse.core,fr.imag.adele.fede.workspace.as.initmodel.
+ jaxb"
+Built-By: chomats
+Tool: Bnd-0.0.357
+Bundle-Name: fr.imag.adele.cadse.as.operationfactory
+Created-By: Apache Maven Bundle Plugin
 Bundle-Vendor: Adele/LIG/ Grenoble University, France
-Bundle-Version: 2.2.1.qualifier
-Bundle-Localization: plugin
-Bundle-ClassPath: .
-Eclipse-LazyStart: false
-Export-Package: fr.imag.adele.fede.workspace.as.operationfactory;version="2.2.1"
-Import-Package: fede.workspace.tool.loadmodel.model.jaxb;version="2.2.1",
- fr.imag.adele.cadse.core;version="2.2.1",
- fr.imag.adele.cadse.core.oper;version="2.2.1",
- fr.imag.adele.fede.workspace.as.operationfactory;version="2.2.1"
-Created-By: envsam
-Bundle-Description: Bundle fr.imag.adele.cadse.as.workspace.operationfa
- ctory
+Bundle-Version: 2.3.0.SNAPSHOT
+Build-Jdk: 1.6.0_17
+Bnd-LastModified: 1261057122812
+Bundle-ManifestVersion: 2
+Import-Package: fr.imag.adele.cadse.core,fr.imag.adele.fede.workspace.
+ as.initmodel.jaxb,fr.imag.adele.fede.workspace.as.operationfactory
+Bundle-DocURL: http://www-adele.imag.fr/
+Bundle-SymbolicName: fr.imag.adele.cadse.as.operationfactory
 

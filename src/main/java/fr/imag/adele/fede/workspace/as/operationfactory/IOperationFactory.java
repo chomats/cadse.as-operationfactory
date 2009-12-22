@@ -20,19 +20,13 @@ package fr.imag.adele.fede.workspace.as.operationfactory;
 
 import fr.imag.adele.cadse.core.CadseException;
 import fr.imag.adele.cadse.core.oper.WSOperation;
-import fede.workspace.tool.loadmodel.model.jaxb.COperation;
-import fede.workspace.tool.loadmodel.model.jaxb.COperationEx;
-import fede.workspace.tool.loadmodel.model.jaxb.ObjectFactory;
-
+import fr.imag.adele.fede.workspace.as.initmodel.jaxb.COperation;
+import fr.imag.adele.fede.workspace.as.initmodel.jaxb.COperationEx;
+import fr.imag.adele.fede.workspace.as.initmodel.jaxb.ObjectFactory;
 /**
  * 
  */
 public interface IOperationFactory {
-
-	/**
-	 * @generated
-	 */
-	String	AS_ID	= "AS.Workspace.OperationFactory";
 
 	public abstract String getName();
 

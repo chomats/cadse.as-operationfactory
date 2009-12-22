@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: fr.imag.adele.cadse.as.workspace.operationfactory
+Bundle-SymbolicName: fr.imag.adele.cadse.as.workspace.operationfactory;singleton:=true
+Bundle-Vendor: Adele/LIG/ Grenoble University, France
+Bundle-Version: 2.2.1.qualifier
+Bundle-Localization: plugin
+Bundle-ClassPath: .
+Eclipse-LazyStart: false
+Export-Package: fr.imag.adele.fede.workspace.as.operationfactory;version="2.2.1"
+Import-Package: fede.workspace.tool.loadmodel.model.jaxb;version="2.2.1",
+ fr.imag.adele.cadse.core;version="2.2.1",
+ fr.imag.adele.cadse.core.oper;version="2.2.1",
+ fr.imag.adele.fede.workspace.as.operationfactory;version="2.2.1"
+Created-By: envsam
+Bundle-Description: Bundle fr.imag.adele.cadse.as.workspace.operationfa
+ ctory
+
